@@ -1,19 +1,20 @@
-import * as path from 'path';
-import * as webpack from 'webpack';
+import * as path from "path";
+import * as webpack from "webpack";
 
 const config: webpack.Configuration = {
-    mode: 'production',
-    entry: './src/index.ts',
+    target: "node",
+    mode: "production",
+    entry: "./src/index.ts",
     output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: './app.bundle.js'
+        path: path.resolve(__dirname, "build"),
+        filename: "./app.bundle.js"
     },
     resolve: {
-        extensions: ['ts', 'js']
+        extensions: [".ts", ".js"]
     },
     module: {
         rules: [
-            { test: /\.ts$/, loaders: 'ts-loader' }
+            { test: /\.ts$/, loaders: "ts-loader" }
         ]
     }
 };

@@ -20,7 +20,8 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
 
-      - name: Test the template
+      - name: Testing & Building the template
         run: |
-          yarn --cwd $GITHUB_WORKSPACE/test
-          yarn --cwd $GITHUB_WORKSPACE/test test
+          yarn
+          yarn test
+          yarn build
