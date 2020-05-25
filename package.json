@@ -1,5 +1,5 @@
 {
-    "name": "typescript-template",
+    "name": "template-typescript",
     "version": "1.0.0",
     "main": "src/index.ts",
     "license": "MIT",
@@ -10,11 +10,11 @@
     "devDependencies": {
         "@types/node": "latest",
         "@types/webpack": "latest",
-        "ts-node": "latest",
         "ts-loader": "latest",
+        "ts-node": "latest",
         "typescript": "latest",
-        "webpack": "latest",
-        "webpack-cli": "latest"
+        "webpack-cli": "latest",
+        "webpack": "latest"
     },
     "scripts": {
         "build": "webpack",
