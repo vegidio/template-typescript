@@ -1,4 +1,4 @@
-import * as _ from "lodash"
+import * as _ from 'lodash'
 
-const msg = "Hello, " + _.capitalize('VINICIUS')
+const msg = 'Hello, ' + _.capitalize('VINICIUS')
 console.log(msg)

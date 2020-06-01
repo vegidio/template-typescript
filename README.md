@@ -12,7 +12,7 @@ Clone the repository and in the project directory install its dependencies by ru
 - `yarn build`: to create an app bundle. The entry point is the file `./src/index.ts` and the resolving binary will be saved in `./build/app.bundle.js`.
 - `yarn lint`: to statically check the code with ESLint.
 - `yarn start`: to execute the code. The entry point is the file `.src/index.ts`.
-- `yarn test`: to run the tests specified in the folder `./tests`.
+- `yarn test`: to run the tests specified in the folder `./test`.
 
 ## 🧩 Dependencies
 
@@ -26,7 +26,7 @@ This template depends on a few Node packages in order to work. All dependencies 
 
 ## 🗂 Directory Structure
 
-This project follows the directory stucture below:
+This project follows the directory structure below:
 
 ```
 [root]
@@ -38,9 +38,17 @@ This project follows the directory stucture below:
 
 where:
 
-- `build`: is the directory containing the binaries created by the project. This folder is auto-generated and you shouldn't manually put any file here.
-- `src`: is the directory where you will place the project code. The entry point of the project's execution is the file `index.ts`.
-- `test`: is the directory where you will place your test scripts.
+- `build/`: is the directory containing the binaries created by the project. This folder is auto-generated and you shouldn't manually put any file here.
+- `src/`: is the directory where you will place the project code. The entry point of the project's execution is the file `index.ts`.
+- `test/`: is the directory where you will place your test scripts.
+
+### Important Files
+
+- `.eslintrc`: ESLint configuration file; you can change the linting rules here.
+- `jest.config.js`: Jest configuration file; you can change the test parameters here.
+- `tsconfig.json`: TypeScript configuration file; you can change how TypeScript transpile the files here.
+- `types.d.ts`: File where you create the definitions for the JS modules that don't have TypeScript support.
+- `webpack.config.ts`: Webpack configuration file; you can change how the project bundle is created here.
 
 ## 📝 License
 

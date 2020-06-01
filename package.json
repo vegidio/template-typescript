@@ -8,11 +8,14 @@
         "lodash": "latest"
     },
     "devDependencies": {
+        "@types/copy-webpack-plugin": "latest",
         "@types/jest": "latest",
         "@types/node": "latest",
         "@types/webpack": "latest",
+        "@types/webpack-node-externals": "latest",
         "@typescript-eslint/eslint-plugin": "latest",
         "@typescript-eslint/parser": "latest",
+        "copy-webpack-plugin": "latest",
         "eslint": "latest",
         "jest": "latest",
         "ts-jest": "latest",
@@ -20,7 +23,8 @@
         "ts-node": "latest",
         "typescript": "latest",
         "webpack": "latest",
-        "webpack-cli": "latest"
+        "webpack-cli": "latest",
+        "webpack-node-externals": "latest"
     },
     "scripts": {
         "build": "webpack",
