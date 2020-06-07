@@ -1,2 +1,2 @@
-// Declare here the modules that offer support to TypeScript
-// declare module 'parse-server';
+// Declare here the modules that don't offer support to TypeScript
+// declare module 'foo'

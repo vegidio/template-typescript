@@ -4,8 +4,9 @@
     "main": "src/index.ts",
     "license": "MIT",
     "dependencies": {
-        "@types/lodash": "latest",
-        "lodash": "latest"
+        "@types/config": "latest",
+        "config": "latest",
+        "winston": "latest"
     },
     "devDependencies": {
         "@types/copy-webpack-plugin": "latest",
@@ -27,9 +28,9 @@
         "webpack-node-externals": "latest"
     },
     "scripts": {
-        "build": "webpack",
-        "lint": "eslint . --ext .ts",
-        "start": "ts-node ./src/index.ts",
-        "test": "jest"
+        "build": "yarn && webpack",
+        "lint": "yarn && eslint . --ext .ts",
+        "start": "yarn && ts-node .",
+        "test": "yarn && jest"
     }
 }
