@@ -1,7 +1,8 @@
 # TypeScript (Template)
 
-[![Actions](https://github.com/vegidio/template-typescript/workflows/test/badge.svg)](https://github.com/vegidio/template-typescript/actions)
-[![MIT](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
+[![GitHub Actions](https://img.shields.io/github/workflow/status/vegidio/template-typescript/test?label=tests)](https://github.com/vegidio/template-typescript/actions)
+[![TypeScript](https://img.shields.io/npm/types/vimdb.svg)](https://www.typescriptlang.org)
+[![ISC License](https://img.shields.io/npm/l/vimdb?color=important)](LICENSE.txt)
 
 A template project for TypeScript with the usual scripts to **run**, **lint**, **build** and **test** the source code.
 
@@ -52,7 +53,7 @@ where:
 
 ## 📝 License
 
-**TypeScript (Template)** is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
+**TypeScript (Template)** is released under the ISC License. See [LICENSE](LICENSE.txt) for details.
 
 ## 👨🏾‍💻 Author
 
