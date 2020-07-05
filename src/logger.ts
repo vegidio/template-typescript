@@ -9,6 +9,7 @@ const logger = createLogger({
     format: format.combine(
         format.colorize(),
         format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss.SSS' }),
+        format.splat(),
         myFormat
     ),
     transports: [new transports.Console()]
