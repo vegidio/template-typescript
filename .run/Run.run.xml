@@ -2,6 +2,9 @@
     <configuration default="false" name="Run" type="NodeJSConfigurationType"
                    node-parameters="--require ts-node/register --trace-warnings" path-to-js-file="src/index.ts"
                    working-dir="$PROJECT_DIR$">
+        <envs>
+            <env name="TS_NODE_FILES" value="true"/>
+        </envs>
         <method v="2"/>
     </configuration>
 </component>

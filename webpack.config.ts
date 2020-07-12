@@ -9,6 +9,7 @@ const config: webpack.Configuration = {
     entry: './src/index.ts',
     output: {
         path: path.resolve(__dirname, 'build'),
+        libraryTarget: 'umd',
         filename: './app.bundle.js'
     },
     resolve: {
