@@ -1,7 +1,14 @@
-import * as config from 'config';
 import logger from './logger';
+import Model from './model';
 
-const serverConfig = config.util.toObject(config.get('server'));
+const promise = new Promise<Model>((resolve) => {
+    const model = new Model({ name: 'Vinicius', age: 40 });
+    setTimeout(() => resolve(model), 1000);
+});
 
-const msg = `Server running on ${serverConfig.host}:${serverConfig.port}`;
+// Top-level await
+const value = await promise;
+logger.debug(JSON.stringify(value));
+
+const msg = 'Hello, World!';
 logger.info(msg);

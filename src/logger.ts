@@ -1,4 +1,5 @@
-import { createLogger, format, transports } from 'winston';
+import winston from 'winston';
+const { createLogger, format, transports } = winston;
 
 const myFormat = format.printf(({ level, message, timestamp }) => {
     return `${timestamp} [${level}]: ${message}`;
