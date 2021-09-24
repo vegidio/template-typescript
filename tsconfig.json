@@ -2,8 +2,7 @@
     "compilerOptions": {
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "declaration": true,
-        "declarationDir": "dist/types",
+        "declaration": false,
         "experimentalDecorators": true,
         "jsx": "react",
         "lib": [ "ES2019" ],
