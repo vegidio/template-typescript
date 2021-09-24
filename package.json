@@ -1,9 +1,9 @@
 {
     "name": "template-typescript",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "Template for TypeScript projects",
     "author": "Vinicius Egidio <me@vinicius.io>",
-    "license": "ISC",
+    "license": "MIT",
     "type": "module",
     "exports": "./dist/bundle.js",
     "types": "./dist/types.d.ts",
@@ -39,7 +39,7 @@
         "build": "rollup --config",
         "lint": "eslint . --ext .ts",
         "start": "node --loader ts-node/esm --experimental-specifier-resolution=node --trace-warnings src/index.ts",
-        "test": "jest"
+        "test": "node --experimental-vm-modules node_modules/.bin/jest"
     },
     "repository": {
         "type": "git",
