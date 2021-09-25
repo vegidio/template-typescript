@@ -13,7 +13,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '16.x'
 
       - name: Checkout the code
         uses: actions/checkout@v2
@@ -25,6 +25,6 @@ jobs:
             git config --global user.name "Vinícius Egidio"
             git config --global user.email "me@vinicius.io"
             git add package.json
-            git commit -m "[skip-ci] Upgraded NPM packages"
+            git commit -m "⬆️ Upgraded dependencies"
             git push
           fi
