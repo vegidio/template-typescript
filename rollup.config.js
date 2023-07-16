@@ -3,7 +3,7 @@ import dts from 'rollup-plugin-dts';
 import json from '@rollup/plugin-json';
 import typescript from 'rollup-plugin-typescript2';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import { terser } from 'rollup-plugin-terser';
+import terser from "@rollup/plugin-terser"
 
 export default [
     {
