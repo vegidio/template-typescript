@@ -26,6 +26,18 @@ This template depends on a few Node packages in order to work. All dependencies 
 - [ts-node](https://www.npmjs.com/package/ts-node): a TypeScript execution environment.
 - [typescript](https://www.npmjs.com/package/typescript): the TypeScript language support.
 
+## ⚙️ Configuration
+
+Here are some configuration parameters that you can tweak based on your needs:
+
+### Rollup
+
+- `@rollup/plugin-commonjs`: to convert CommonJS modules to ES6.
+- `@rollup/plugin-json`: to convert .json files and include in the bundle.
+- `@rollup/plugin-node-resolve`: to pack all dependencies together in the bundle.
+- `@rollup/plugin-terser`: to minify the output of the generated bundle.
+- `@rollup/plugin-typescript`: to only the usage of TypeScript files when creating a bundle.
+
 ## 🗂 Directory Structure
 
 This project follows the directory structure below:
