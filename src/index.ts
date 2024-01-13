@@ -11,7 +11,7 @@ const promise = new Promise<Person>((resolve) => {
 const value = await promise;
 logger.debug(JSON.stringify(value));
 
-const msg = 'Hello, World!';
+const msg = 'Hi, mom!';
 logger.info(msg);
 
 export { Person, Address };

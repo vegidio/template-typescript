@@ -23,7 +23,7 @@ This template depends on a few Node packages in order to work. All dependencies 
 - [eslint](https://www.npmjs.com/package/eslint): a tool for identifying and reporting problems in TypeScript code.
 - [jest](https://www.npmjs.com/package/jest): a JavaScript test framework.
 - [rollup](https://www.npmjs.com/package/rollup): a ES module bundler for JavaScript.
-- [ts-node](https://www.npmjs.com/package/ts-node): a TypeScript execution environment.
+- [tsx](https://www.npmjs.com/package/ts-node): a TypeScript execution environment.
 - [typescript](https://www.npmjs.com/package/typescript): the TypeScript language support.
 
 ## ⚙️ Configuration
