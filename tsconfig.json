@@ -9,7 +9,7 @@
         "module": "ESNext",
         "moduleResolution": "Node",
         "noImplicitAny": true,
-        "target": "ES2017",
+        "target": "ESNext",
         "useDefineForClassFields": false
     },
     "include": [
