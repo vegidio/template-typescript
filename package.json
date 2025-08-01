@@ -17,20 +17,20 @@
     "dependencies": {
         "@types/config": "3.3.5",
         "@types/jest": "30.0.0",
-        "@types/node": "24.0.8",
-        "@typescript-eslint/eslint-plugin": "8.35.1",
-        "@typescript-eslint/parser": "8.35.1",
-        "config": "4.0.0",
-        "eslint": "9.30.0",
-        "eslint-plugin-prettier": "5.5.1",
-        "jest": "30.0.3",
-        "pkgroll": "2.13.1",
+        "@types/node": "24.1.0",
+        "@typescript-eslint/eslint-plugin": "8.38.0",
+        "@typescript-eslint/parser": "8.38.0",
+        "config": "4.1.0",
+        "eslint": "9.32.0",
+        "eslint-plugin-prettier": "5.5.3",
+        "jest": "30.0.5",
+        "pkgroll": "2.15.0",
         "prettier": "3.6.2",
         "ts-jest": "29.4.0",
         "tsx": "4.20.3"
     },
     "devDependencies": {
-        "typescript": "5.8.3",
+        "typescript": "5.9.2",
         "winston": "3.17.0"
     },
     "scripts": {
